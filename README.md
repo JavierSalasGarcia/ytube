@@ -24,15 +24,15 @@ El script intentará instalar automáticamente yt-dlp si no está disponible en 
 
 #### Instalar ffmpeg (Windows)
 
-1. Descarga ffmpeg desde [ffmpeg.org](https://ffmpeg.org/download.html) o desde [este enlace directo a gyan.dev](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z)
+1. Descarga ffmpeg desde [ffmpeg.org](https://ffmpeg.org/download.html) o desde [este enlace directo](https://github.com/BtbN/FFmpeg-Builds/releases)
 2. Extrae el archivo descargado
-3. Copia la carpeta extraída a una ubicación permanente (por ejemplo, `C:\Program Files\ffmpeg`)
+3. Copia la carpeta extraída a una ubicación permanente (por ejemplo, `C:\ffmpeg`)
 4. Añade la carpeta `bin` de ffmpeg al PATH de Windows:
    - Abre el Panel de Control
    - Busca "variables de entorno" y selecciona "Editar las variables de entorno del sistema"
    - En la pestaña "Avanzado", haz clic en "Variables de entorno"
    - En la sección "Variables del sistema", selecciona "Path" y haz clic en "Editar"
-   - Haz clic en "Nuevo" y añade la ruta a la carpeta bin (ejemplo: `C:\Program Files\ffmpeg\bin`)
+   - Haz clic en "Nuevo" y añade la ruta a la carpeta bin (ejemplo: `C:\ffmpeg\bin`)
    - Haz clic en "Aceptar" para cerrar todas las ventanas
 
 Hay un video tutorial disponible que explica este proceso paso a paso.
